@@ -1,0 +1,60 @@
+# =========================
+# Node.js dependencies
+# =========================
+frontend/node_modules/
+backend/node_modules/
+
+# =========================
+# Environment variables
+# =========================
+.env
+frontend/.env
+backend/.env
+*.local
+
+# =========================
+# React / Frontend build / production folders
+# =========================
+frontend/dist/
+frontend/build/
+dist/
+dist-ssr/
+
+# =========================
+# Uploaded media / temp files
+# =========================
+backend/uploads/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# OS / system files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE folders and files
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Optional: Test / Coverage
+# =========================
+coverage/
